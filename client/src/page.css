@@ -1,0 +1,72 @@
+.emotion-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.emotion-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.emotion-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.emotion-textarea:focus {
+  border-color: #007bff;
+}
+
+.emotion-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.emotion-button:hover {
+  background-color: #0056b3;
+}
+
+.emotion-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.emotion-error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.emotion-result-box {
+  margin-top: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-result-box h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.emotion-result-box p {
+  margin: 5px 0 0;
+  color: #555;
+}
